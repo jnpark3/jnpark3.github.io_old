@@ -67,13 +67,13 @@ button{
     background-image: url('images/long.png');
     background-repeat: no-repeat;
     background-size: contain;
-    min-height: 140px;
+    min-height: 200px;
     height: fit-content;
 }
 
 .fig1{
     width: 50%;
-    min-width: 180px;
+    min-width: 160px;
     aspect-ratio: 1/1;
     background-image: url('images/214.svg');
     background-size: contain;
@@ -81,8 +81,8 @@ button{
 }
 
 .fig2{
-    width: 50%;
-    min-width: 180px;
+    width: 40%;
+    min-width: 160px;
     aspect-ratio: 1/1;
     background-image: url('images/215.svg');
     background-size: contain;
@@ -160,7 +160,7 @@ img {
 .text{
     font-family: "Inter", sans-serif;
     color: #777;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 .bodytext{
@@ -188,7 +188,7 @@ img {
 }
 
 .category-gap{
-    padding-top: 80px;
+    padding-top: 60px;
 }
 
 .large-vertical-gap{
@@ -236,7 +236,7 @@ img {
 /* List */
 
 ul {
-    font-size: 15px;
+    font-size: 18px;
     font-family: "Inter", sans-serif;
     color: #777;
     margin: 0px;
@@ -253,7 +253,7 @@ ul li:before {
     position: absolute;
     content: '';
     width: 16px;
-    height: 18px;
+    height: 20.5px;
     margin-left: -23px;
     line-height: inherit;
     background:url('./images/arrow.svg') 50% 50% no-repeat;
@@ -349,7 +349,7 @@ li{
     .text{
         font-family: "Inter", sans-serif;
         color: #777;
-        font-size: 10px;
+        font-size: 13px;
     }
 
     .bodytext{
@@ -377,26 +377,30 @@ li{
     }
 
     .category-gap{
-        padding-top: 53.3px;
+        padding-top: 40px;
     }
 
     .large-vertical-gap{
         height: 26.7px;
+        min-height: 26.7px;
         width: 100%;
     }
 
     .large-horizontal-gap{
         width: 26.7px;
+        min-width: 26.7px;
         height: 100%;
     }
 
     .horizontal-gap{
         width: 20px;
+        min-width: 20px;
         height: 100%;
     }
 
     .vertical-gap{
         height: 20px;
+        min-height: 20px;
         width: 100%;
     }
 
@@ -425,7 +429,7 @@ li{
     /* List */
 
     ul {
-        font-size: 10px;
+        font-size: 13px;
         font-family: "Inter", sans-serif;
         color: #777;
         margin: 0px;
@@ -441,13 +445,13 @@ li{
     ul li:before {
         position: absolute;
         content: '';
-        width: 10px;
-        height: 11.5px;
+        width: 11px;
+        height: 14px;
         margin-left: -14px;
         line-height: inherit;
         background:url('./images/arrow.svg') 50% 50% no-repeat;
         background-size: contain;
-        font-size: 10px;
+        font-size: 13px;
         list-style:none;
     }
 
