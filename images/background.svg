@@ -1,0 +1,35 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_1120_62)">
+<rect width="40" height="40" fill="#EEEEEE"/>
+<path d="M-1 -1L23 23" stroke="#333333"/>
+<path d="M4 -1L28 23" stroke="#333333"/>
+<path d="M9 -1L33 23" stroke="#333333"/>
+<path d="M14 -1L38 23" stroke="#333333"/>
+<path d="M19 -1L43 23" stroke="#333333"/>
+<path d="M-6 -1L18 23" stroke="#333333"/>
+<path d="M-11 -1L13 23" stroke="#333333"/>
+<path d="M-16 -1L8 23" stroke="#333333"/>
+<path d="M-21 -1L3 23" stroke="#333333"/>
+<path d="M3 23L27 47" stroke="#333333"/>
+<path d="M8 23L32 47" stroke="#333333"/>
+<path d="M13 23L37 47" stroke="#333333"/>
+<path d="M18 23L42 47" stroke="#333333"/>
+<path d="M23 23L47 47" stroke="#333333"/>
+<path d="M-2 23L22 47" stroke="#333333"/>
+<path d="M-7 23L17 47" stroke="#333333"/>
+<path d="M-12 23L12 47" stroke="#333333"/>
+<path d="M-17 23L7 47" stroke="#333333"/>
+<path d="M38 23L62 47" stroke="#333333"/>
+<path d="M33 23L57 47" stroke="#333333"/>
+<path d="M28 23L52 47" stroke="#333333"/>
+<path d="M37 -3L61 21" stroke="#333333"/>
+<path d="M32 -3L56 21" stroke="#333333"/>
+<path d="M27 -3L51 21" stroke="#333333"/>
+<path d="M22 -3L46 21" stroke="#333333"/>
+</g>
+<defs>
+<clipPath id="clip0_1120_62">
+<rect width="40" height="40" fill="white"/>
+</clipPath>
+</defs>
+</svg>

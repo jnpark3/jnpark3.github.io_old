@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Jian Park</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="images/star.svg" />
+  </head>
+  <body id="body" class="padding body">
+    <div class="padding content-container">
+      <div
+        class="left-container"
+        style="
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+        "
+      >
+        <div>
+          <div class="dark-border profile"></div>
+          <div class="vertical-gap"></div>
+          <div class="text">Hello, my name is</div>
+          <div class="tiny-vertical-gap"></div>
+          <div class="title">Jian Park</div>
+          <div class="small-vertical-gap"></div>
+          <ul>
+            <li>Developer</li>
+            <li>Researcher</li>
+            <li>Designer</li>
+          </ul>
+        </div>
+        <div>
+          <button class="text button active" data-target="section1">
+            1. About Me
+          </button>
+          <div class="tiny-vertical-gap"></div>
+          <button class="text button" data-target="section2">
+            2. Software Projects
+          </button>
+          <div class="tiny-vertical-gap"></div>
+          <button class="text button" data-target="section3">
+            3. Past Research
+          </button>
+          <div class="tiny-vertical-gap"></div>
+          <button class="text button" data-target="section4">
+            4. Design/Art
+          </button>
+          <div class="tiny-vertical-gap"></div>
+          <button class="text button" data-target="section5">
+            5. Contact Me
+          </button>
+        </div>
+      </div>
+      <div class="horizontal-gap"></div>
+      <div id="scroll" class="right-container" style="box-sizing: border-box">
+        <div class="scroll-window" style="box-sizing: border-box">
+          <div>
+            <div
+              class="category-gap section"
+              id="section1"
+              style="display: flex; flex-direction: row; align-items: center"
+            >
+              <span class="subtitle" style="white-space: nowrap"
+                >1. About Me</span
+              >
+              <div class="small-horizontal-gap"></div>
+              <div class="separator"></div>
+            </div>
+            <div class="padding" style="display: flex; flex-direction: row">
+              <div style="display: flex; flex-direction: column; width: 50%">
+                <div class="text">
+                  As a sophomore at the University of Chicago, I am currently
+                  pursuing a triple major in Mathematics, Computer Science, and
+                  Economics.
+                </div>
+                <div class="small-vertical-gap"></div>
+                <div class="text">
+                  Through my involvement in various projects and work
+                  experiences, I have developed a proficiency in
+                  <u>full-stack development</u>, and I am always eager to create
+                  software solutions for challenging problems. Additionally, I
+                  have a keen interest in investigating topics ranging from
+                  Galois theory to algorithm optimization, with a particular
+                  focus on <u>machine learning</u> and <u>pure mathematics</u>.
+                </div>
+                <div class="small-vertical-gap"></div>
+                <div class="text">
+                  In my free time, I enjoy pursuing my passion for graphic
+                  design and art, particularly in the areas of logo, web, and
+                  board game design. Overall, I am actively seeking
+                  opportunities to expand my skill set and explore new avenues
+                  for personal and professional growth.
+                </div>
+                <div class="small-vertical-gap"></div>
+                <div class="text"></div>
+              </div>
+              <div class="large-horizontal-gap"></div>
+              <div style="width: 50%; display: flex; flex-direction: column">
+                <div class="text" style="color: #333">My Skills:</div>
+                <div class="small-vertical-gap"></div>
+                <div style="display: flex; flex-wrap: wrap">
+                  <div class="skillbox text tiny-padding">Machine Learning</div>
+                  <div class="skillbox text tiny-padding">Clustering</div>
+                  <div class="skillbox text tiny-padding">Data Analysis</div>
+                  <div class="skillbox text tiny-padding">Python</div>
+                  <div class="skillbox text tiny-padding">Java</div>
+                  <div class="skillbox text tiny-padding">Javascript</div>
+                  <div class="skillbox text tiny-padding">Angular</div>
+                  <div class="skillbox text tiny-padding">HTML/CSS</div>
+                  <div class="skillbox text tiny-padding">SQL</div>
+                  <div class="skillbox text tiny-padding">C</div>
+                  <div class="skillbox text tiny-padding">C++</div>
+                  <div class="skillbox text tiny-padding">R</div>
+                  <div class="skillbox text tiny-padding">MongoDB</div>
+                  <div class="skillbox text tiny-padding">AWS</div>
+                  <div class="skillbox text tiny-padding">Google Cloud</div>
+                  <div class="skillbox text tiny-padding">Git</div>
+                  <div class="skillbox text tiny-padding">Figma</div>
+                </div>
+              </div>
+            </div>
+            <div class="category-gap"></div>
+          </div>
+          <div>
+            <div
+              class="category-gap section"
+              id="section2"
+              style="display: flex; flex-direction: row; align-items: center"
+            >
+              <span class="subtitle" style="white-space: nowrap"
+                >2. Software Projects</span
+              >
+              <div class="small-horizontal-gap"></div>
+              <div class="separator"></div>
+            </div>
+            <div class="padding">
+              <div class="text">Highlighed Project:</div>
+              <div class="small-vertical-gap"></div>
+              <div
+                class="padding border"
+                style="display: flex; flex-direction: row"
+              >
+                <div style="display: flex; flex-direction: column">
+                  <div class="text" style="font-weight: bold">
+                    <u>Airstash</u>
+                  </div>
+                  <div class="vertical-gap"></div>
+                  <ul>
+                    <li>
+                      Startup company aimed at improving the investment
+                      expereinces for everyday investors; currently in active
+                      development
+                    </li>
+                    <li>
+                      Developed a no-code interface to automate personal
+                      investment strategies
+                    </li>
+                    <li>
+                      Employed machine learning models to automate tax
+                      management
+                    </li>
+                    <li>
+                      <i>Angular</i>, <i>Typescript</i>, <i>Node</i>,
+                      <i>AWS</i>, <i>Tensorflow</i>, <i>MongoDB</i>
+                    </li>
+                  </ul>
+                  <div class="vertical-gap"></div>
+                  <div style="display: flex; flex-direction: row">
+                    <a
+                      class="text"
+                      href="https://www.airstash.io"
+                      target="_blank"
+                      >Project homepage</a
+                    >
+                    <div class="tiny-horizontal-gap"></div>
+                    <div class="text">|</div>
+                    <div class="tiny-horizontal-gap"></div>
+                    <a
+                      class="text"
+                      href="https://www.youtube.com/watch?v=6Yw5cnbUD-w"
+                      target="_blank"
+                      >View Demo Video</a
+                    >
+                  </div>
+                </div>
+                <div class="horizontal-gap"></div>
+                <div class="interface border"></div>
+              </div>
+              <div class="vertical-gap"></div>
+              <div class="text">Other Project:</div>
+              <div class="small-vertical-gap"></div>
+              <div style="display: flex; flex-direction: row">
+                <div
+                  class="padding border"
+                  style="display: flex; flex-direction: column; width: 50%"
+                >
+                  <div class="text" style="font-weight: bold">
+                    <u>Biblios</u>
+                  </div>
+                  <div class="vertical-gap"></div>
+                  <ul>
+                    <li>
+                      iOS application to facilitate the growth of second-hand
+                      texbook exchanges at high schools
+                    </li>
+                    <li><i>React</i>, <i>Javascript</i>, <i>Firebase</i></li>
+                  </ul>
+                  <div class="vertical-gap"></div>
+                  <a
+                    class="text"
+                    href="https://www.youtube.com/watch?v=D86-UP54yvI"
+                    target="_blank"
+                    >View Demo Video</a
+                  >
+                </div>
+                <div class="small-horizontal-gap"></div>
+                <div
+                  class="padding border"
+                  style="display: flex; flex-direction: column; width: 50%"
+                >
+                  <div class="text" style="font-weight: bold">
+                    <u>DT-DBSCAN</u>
+                  </div>
+                  <div class="vertical-gap"></div>
+                  <ul>
+                    <li>
+                      Implementation of a novel density-based clustering
+                      algorithm using Delaunay triangulation
+                    </li>
+                    <li><i>Java</i>, <i>Machine Learning</i></li>
+                  </ul>
+                  <div class="vertical-gap"></div>
+                  <a
+                    class="text"
+                    href="https://github.com/jnpark3/DT-DBSCAN-Implementation"
+                    target="_blank"
+                    >Visit Repository</a
+                  >
+                </div>
+              </div>
+              <div class="small-vertical-gap"></div>
+              <div style="display: flex; flex-direction: row">
+                <div
+                  class="padding border"
+                  style="display: flex; flex-direction: column; width: 50%"
+                >
+                  <div class="text" style="font-weight: bold">
+                    <u>Testflow</u>
+                  </div>
+                  <div class="vertical-gap"></div>
+                  <ul>
+                    <li>
+                      Mobile/web application to facilitate supply chain issues
+                      related to Covid-19 testing kits
+                    </li>
+                    <li>Lead frontend developer for hackathon team</li>
+                    <li><i>HTML/CSS</i>, <i>Javascript</i>, <i>Python</i></li>
+                  </ul>
+                  <div class="vertical-gap"></div>
+                  <a
+                    class="text"
+                    href="https://www.youtube.com/watch?v=HXevpKQBPDM"
+                    target="_blank"
+                    >View Demo Video</a
+                  >
+                </div>
+                <div class="small-horizontal-gap"></div>
+                <div
+                  class="padding border"
+                  style="
+                    display: flex;
+                    flex-direction: column;
+                    width: 50%;
+                    height: fit-content;
+                  "
+                >
+                  <div class="text" style="font-weight: bold">
+                    <u>Personal Website</u>
+                  </div>
+                  <div class="vertical-gap"></div>
+                  <ul>
+                    <li>
+                      Website to demonstrate my interests, projects, and
+                      experiences
+                    </li>
+                    <li><i>HTML/CSS</i>, <i>Javascript</i></li>
+                  </ul>
+                  <div class="vertical-gap"></div>
+                  <a
+                    class="text"
+                    href="https://www.jianpark.com"
+                    target="_blank"
+                    >Visit Repository</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="category-gap"></div>
+          </div>
+          <div>
+            <div
+              class="category-gap section"
+              id="section3"
+              style="display: flex; flex-direction: row; align-items: center"
+            >
+              <span class="subtitle" style="white-space: nowrap"
+                >3. Past Research</span
+              >
+              <div class="small-horizontal-gap"></div>
+              <div class="separator"></div>
+            </div>
+            <div class="padding">
+              <div class="text">Highlighed Project:</div>
+              <div class="small-vertical-gap"></div>
+              <div
+                class="padding border"
+                style="display: flex; flex-direction: column"
+              >
+                <div class="text" style="font-weight: bold">
+                  <u
+                    >DT-DBSCAN: Density-Based Spatial Clustering in Linear
+                    Expected Time Using Delaunay Triangulation</u
+                  >
+                </div>
+                <div class="vertical-gap"></div>
+                <div
+                  style="
+                    display: flex;
+                    flex-direction: row;
+                    box-sizing: border-box;
+                  "
+                >
+                  <div>
+                    <ul>
+                      <li>
+                        This project proposes DT-DBSCAN, a density-based
+                        clustering algorithm that can cluster datasets of size n
+                        in O(n) expected time, which is an improvement compared
+                        to existing O(n log n) density-based clustering
+                        algorithms. This improved runtime is achieved by using
+                        the Delaunay triangulation of the dataset to efficiently
+                        classify locally dense and locally sparse data points.
+                      </li>
+                      <li>
+                        Selected to be a 2021 Regeneron Science Talent Search
+                        Scholar for this research
+                      </li>
+                    </ul>
+                    <div class="vertical-gap"></div>
+                    <a
+                      class="text"
+                      href="https://drive.google.com/file/d/1WntRBBqmIPOJx8rFUf1lsI-D9lRl4WpW/view"
+                      target="_blank"
+                      >View Project Abstract</a
+                    >
+                  </div>
+                  <div class="large-horizontal-gap"></div>
+                  <div class="fig1"></div>
+                </div>
+              </div>
+              <div class="vertical-gap"></div>
+              <div class="text">Other Projects:</div>
+              <div class="small-vertical-gap"></div>
+              <div
+                class="padding border"
+                style="display: flex; flex-direction: column"
+              >
+                <div class="text" style="font-weight: bold">
+                  <u>On the Modular Properties of Hypothetical Collatz Loops</u>
+                </div>
+                <div class="vertical-gap"></div>
+                <div
+                  style="
+                    display: flex;
+                    flex-direction: row;
+                    box-sizing: border-box;
+                  "
+                >
+                  <div>
+                    <ul>
+                      <li>
+                        This project analyzes the Collatz conjecture, an
+                        unsolved problem in mathematics. A new mathematical
+                        model is created to simulate the behavior of Collatz
+                        sequences under modulo 2^n. This model is then
+                        implemented into an algorithm to prove the non-existance
+                        of Collatz loops with a length smaller than 24.
+                      </li>
+                      <li>
+                        Selected to be an Intel International Science and
+                        Engineering Fair Finalist for this research
+                      </li>
+                    </ul>
+                    <div class="vertical-gap"></div>
+                    <a
+                      class="text"
+                      href="https://csef.usc.edu/CSSF/History/2018/Projects/S1512.pdf"
+                      target="_blank"
+                      >View Project Abstract</a
+                    >
+                  </div>
+                  <div class="large-horizontal-gap"></div>
+                  <div class="fig3"></div>
+                </div>
+              </div>
+              <div class="small-vertical-gap"></div>
+              <div
+                class="padding border"
+                style="display: flex; flex-direction: column"
+              >
+                <div class="text" style="font-weight: bold">
+                  <u
+                    >A Novel Approach to the Inscribed Square Problem: A Polar
+                    Graph Analysis</u
+                  >
+                </div>
+                <div class="vertical-gap"></div>
+                <div
+                  style="
+                    display: flex;
+                    flex-direction: row;
+                    box-sizing: border-box;
+                  "
+                >
+                  <div>
+                    <ul>
+                      <li>
+                        This project analyzes the inscribed square problem by
+                        observing the behavior of inscribed isosceles right
+                        triangles in Jordan curves. Although it is already known
+                        that infinitely many isosceles right triangles may be
+                        inscribed in any closed loop, this project proves that
+                        the position and orientation of all of these triangles
+                        can be represented by a continuous function. This
+                        represents a development towards a solution for the
+                        currently unsolved conjecture.
+                      </li>
+                    </ul>
+                    <div class="vertical-gap"></div>
+                    <a
+                      class="text"
+                      href="https://drive.google.com/file/d/1Zv_eKewqEG_KjIt3l2JRGFPOCnnFGFdP/view"
+                      target="_blank"
+                      >View Working Paper</a
+                    >
+                  </div>
+                  <div class="large-horizontal-gap"></div>
+                  <div class="fig2"></div>
+                </div>
+              </div>
+              <div class="small-vertical-gap"></div>
+              <div
+                class="padding border"
+                style="display: flex; flex-direction: column"
+              >
+                <div class="text" style="font-weight: bold">
+                  <u>On the Cardinality and Isomorphism of Finite Fields</u>
+                </div>
+                <div class="vertical-gap"></div>
+                <div
+                  style="
+                    display: flex;
+                    flex-direction: row;
+                    box-sizing: border-box;
+                  "
+                >
+                  <div>
+                    <ul>
+                      <li>
+                        A short paper analyzing the possible cardinalities of
+                        finite fields and the isomorphism between fields of
+                        equal cardinality.
+                      </li>
+                      <li>
+                        Completed as a part of the 2022 University of Chicago
+                        Summer Mathematics REU
+                      </li>
+                    </ul>
+                    <div class="vertical-gap"></div>
+                    <a
+                      class="text"
+                      href="https://drive.google.com/file/d/1ivYStu8HOpiRuQTlRFmF-ib3kgdDNJdh"
+                      target="_blank"
+                      >View Paper</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="category-gap"></div>
+          </div>
+          <div>
+            <div
+              class="category-gap section"
+              id="section4"
+              style="display: flex; flex-direction: row; align-items: center"
+            >
+              <span class="subtitle" style="white-space: nowrap"
+                >4. Design/Art</span
+              >
+              <div class="small-horizontal-gap"></div>
+              <div class="separator"></div>
+            </div>
+            <div
+              class="padding"
+              style="display: flex; flex-direction: row; box-sizing: border-box"
+            >
+              <div
+                style="
+                  display: flex;
+                  flex-direction: column;
+                  flex-grow: 1;
+                  box-sizing: border-box;
+                "
+              >
+                <img class="border" src="./images/img1.webp" alt="Painting 1" />
+                <div class="small-vertical-gap"></div>
+                <img class="border" src="./images/img6.webp" alt="Painting 1" />
+                <div class="small-vertical-gap"></div>
+                <div
+                  class="border"
+                  style="display: flex; flex-direction: column"
+                >
+                  <img src="./images/img7.webp" alt="Painting 1" />
+                  <a
+                    class="text small-padding"
+                    href="https://drive.google.com/drive/folders/1UN4COHwpvor73zryvesRyh2Cr_nTEfA2"
+                    target="_blank"
+                  >
+                    Download Game Files
+                  </a>
+                </div>
+              </div>
+              <div class="small-horizontal-gap"></div>
+              <div
+                style="
+                  display: flex;
+                  flex-direction: column;
+                  flex-grow: 1;
+                  box-sizing: border-box;
+                "
+              >
+                <img
+                  class="border"
+                  src="./images/img10.webp"
+                  alt="Painting 1"
+                />
+                <div class="small-vertical-gap"></div>
+                <img class="border" src="./images/img2.webp" alt="Painting 1" />
+                <div class="small-vertical-gap"></div>
+                <div
+                  class="border"
+                  style="display: flex; flex-direction: column"
+                >
+                  <img src="./images/img8.webp" alt="Painting 1" />
+                  <a
+                    class="text small-padding"
+                    href="https://drive.google.com/drive/u/0/folders/16jOK08wVO4l5DugmPPeWqj0Zv3wDlRNb"
+                    target="_blank"
+                  >
+                    Download Game Files
+                  </a>
+                </div>
+              </div>
+              <div class="small-horizontal-gap"></div>
+              <div
+                style="
+                  display: flex;
+                  flex-direction: column;
+                  flex-grow: 1;
+                  box-sizing: border-box;
+                "
+              >
+                <img class="border" src="./images/img3.webp" alt="Painting 1" />
+                <div class="small-vertical-gap"></div>
+                <img class="border" src="./images/img4.webp" alt="Painting 1" />
+                <div class="small-vertical-gap"></div>
+                <div
+                  class="border"
+                  style="display: flex; flex-direction: column"
+                >
+                  <img src="./images/img9.webp" alt="Painting 1" />
+                  <a
+                    class="text small-padding"
+                    href="https://drive.google.com/drive/folders/1uRjuZCGnS-29PWlyek2LCWiCwE4abobl"
+                    target="_blank"
+                  >
+                    Download Game Files
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="category-gap"></div>
+          </div>
+          <div>
+            <div
+              class="category-gap section"
+              id="section5"
+              style="display: flex; flex-direction: row; align-items: center"
+            >
+              <span class="subtitle" style="white-space: nowrap"
+                >5. Contact Me</span
+              >
+              <div class="small-horizontal-gap"></div>
+              <div class="separator"></div>
+            </div>
+            <div class="padding" style="display: flex; flex-direction: column">
+              <div class="text">Email: <a class="text" href="mailto:jnpark3@gmail.com">jnpark3@gmail.com</div>
+              <div class="tiny-vertical-gap"></div>
+              <a
+                class="text"
+                href="https://www.youtube.com/watch?v=HXevpKQBPDM"
+                target="_blank"
+                >LinkedIn</a
+              >
+              <div class="tiny-vertical-gap"></div>
+              <a class="text" href="https://github.com/jnpark3" target="_blank"
+                >Github</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
