@@ -480,6 +480,22 @@ li{
         display: none;
     }
 
+    .fig1{
+        display: none;
+    }
+
+    .fig2{
+        display: none;
+    }
+
+    .fig3{
+        display: none;
+    }
+
+    .interface{
+        display: none;
+    }
+
     .scroll-window{
         width: calc(100vw - 79px);
     }
