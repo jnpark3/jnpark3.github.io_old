@@ -1,7 +1,21 @@
+
 * {
     -webkit-user-select: none;
     -ms-user-select: none;
     user-select: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    filter: grayscale(100%);
+    transition: all 0.25s ease;
+}
+  
+img:hover {
+    filter: grayscale(0%);
+    transition: all 0.25s ease;
+    transform: scale(1.06);
 }
 
 button{
@@ -55,20 +69,16 @@ button{
 /* Image/icon containers */
 
 .profile{
-    width: 70%;
+    width: 60%;
     aspect-ratio: 1/1;
     background-image: url('images/photo.png');
     background-size: contain;
 }
 
 .interface{
-    width: 50%;
-    aspect-ratio: 1.3045/1;
-    background-image: url('images/long.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    min-height: 200px;
+    max-width: 40%;
     height: fit-content;
+    min-height: 200px;
 }
 
 .fig1{
@@ -96,11 +106,6 @@ button{
     background-image: url('images/216.svg');
     background-size: contain;
     background-repeat: no-repeat;
-}
-
-img {
-    width: 100%;
-    height: auto;
 }
 
 .separator{
